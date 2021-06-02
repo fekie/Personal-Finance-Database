@@ -1,3 +1,10 @@
 {
-    "DbVersion": "1.0"
+    "DatabasesPath": "C:/Dev/Databases",
+    "DbVersion": "1.0",
+    "AssetTypes": [
+        "Stocks",
+        "Bank",
+        "Cash",
+        "Paypal"
+    ]
 }
