@@ -8,7 +8,7 @@ Dependencies:
 Setup:
   
     Edit the json to include your asset types.
-    Edit the json to change the database path.
+    Edit the json to change the database path
 
 Usage:
   
