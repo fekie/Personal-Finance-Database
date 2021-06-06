@@ -1,10 +1,11 @@
 {
-    "DatabasesPath": "C:/Dev/Databases",
+    "DatabasesPath": "C:/Dev/Databases/Personal-Finances",
     "DbVersion": "1.0",
     "AssetTypes": [
         "Stocks",
         "Bank",
         "Cash",
-        "Paypal"
+        "Paypal",
+        "Assets"
     ]
 }

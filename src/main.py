@@ -8,10 +8,6 @@ with open("config.json") as f:
 
 db = dbClass.db(config["DatabasesPath"], config["DbVersion"], config["AssetTypes"])
 
-''' con = sqlite3.connect("../databases/db_v" + config["DbVersion"] + "/db_v" + config["DbVersion"] + ".db")
-cur = con.cursor()
-
-#cur.execute()
-con.commit()
-
-con.close() '''
+while True:
+  command = db.WaitForCommand()
+  db.ExecuteCommand(command)
