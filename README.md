@@ -3,7 +3,6 @@
 Dependencies:
 
      pip install PTable
-     pip install sqlite3
 
 Setup:
   
